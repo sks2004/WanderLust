@@ -13,7 +13,7 @@
                 <img src="<%=listing.image.url%>" class="card-img-top show-img" alt="listing_image">
                 <div class="card-body">
                     <div class="card-text">
-                        <p>Owned by <%= listing.owner.username %></p>
+                        <p>Owned by @<%= listing.owner.username %></p>
                         <p><%= listing.description %></p>
                         <p>&#8377;<%= listing.price.toLocaleString("en-IN") %> / night</p>
                         <p><%= listing.location %></p>
