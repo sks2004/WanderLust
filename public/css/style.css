@@ -22,6 +22,12 @@ body {
 .nav-link {
     color: #222222 !important;
 }
+.nav-index{
+    border-bottom: 1px solid lightgray;
+}
+.nav-collapse-div{
+    background-color: white;
+}
 
 .f-info-links,
 .f-info-socials,
@@ -56,7 +62,7 @@ body {
     background-color: #ebebeb;
 }
 
-.listing-card {
+.listing-card-show, .listing-card-index {
     border: none !important;
     margin-bottom: 2rem;
 }
@@ -78,7 +84,6 @@ body {
 
 .listing-links {
     text-decoration: none;
-
 }
 
 /* card effect */
@@ -111,7 +116,7 @@ body {
 
 #map {
     height: 400px;
-    width: 80vh;
+    width: 100%;
 }
 
 #filters{
@@ -163,4 +168,15 @@ body {
 .search-input{
     border-radius: 25px !important;
     padding: 0.5rem 3rem 0.5rem 3rem !important;
+}
+
+.rate, .comm{
+    font-size: 1.2rem;
+}
+
+.list-head{
+    display: none;
+}
+.all-listing-heading{
+    padding-top: 80px;
 }

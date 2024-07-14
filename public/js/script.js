@@ -17,3 +17,11 @@
     })
   })();
   
+let toggleBtn = document.querySelector(".navbar-toggler");
+let navborder = document.querySelector(".nav-index");
+let head = document.querySelector(".listing-heading");
+
+toggleBtn.addEventListener("click",()=>{
+    navborder.classList.toggle("nav-index");
+    head.classList.toggle("all-listing-heading");
+});

@@ -1,0 +1,94 @@
+/* edit page */
+
+@media (width <= 570px) {
+    .edit-page{
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+    #description{
+        height: 120px !important;
+    }
+}
+@media (min-width: 570px) and (max-width: 770px) {
+    .edit-page{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+    #description{
+        height: 110px !important;
+    }
+}
+@media (min-width: 770px) and (max-width: 1010px) {
+    #description{
+        height: 90px !important;
+    }
+}
+
+/* index page */
+
+@media (width <= 1210px) {
+    #filters{
+        display: none;
+    }
+    .list-head{
+        display: inline;
+    }
+}
+
+/* new page */
+
+@media (width <=770px) {
+    .new-head {
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+}
+@media (width <=500px) {
+    .new-head {
+        width: 90% !important;
+        margin-left: 5% !important;
+    }
+}
+
+/* show page */
+
+@media (width <=550px) {
+    .review-card {
+        width: 70% !important;
+    }
+
+    #map {
+        height: 200px !important;
+    }
+}
+@media (width <=995px) {
+    #map {
+        height: 300px !important;
+    }
+
+    .show-head, .listing-card-show, .add-review-card, .map-view {
+        width: 70% !important;
+        margin-left: 15% !important;
+    }
+}
+@media (width <=770px) {
+    #map {
+        height: 300px !important;
+    }
+
+    .show-head, .listing-card-show, .add-review-card, .map-view {
+        width: 85% !important;
+        margin-left: 7% !important;
+    }
+}
+
+/* navbar */
+
+@media (width <=767px) {
+    .nav-search{
+        display: none !important;
+    }
+    /* .nav-index{
+        border: none !important;
+    } */
+}
