@@ -92,3 +92,47 @@
         border: none !important;
     } */
 }
+
+/* Error page */
+
+@media (width <=550px) {
+    .flash-message{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+}
+@media (min-width: 551px) and (max-width: 767px) {
+    .flash-message{
+        width: 70% !important;
+        margin-left: 15% !important;
+    }
+}
+
+
+/* login page */
+@media (width <=550px) {
+    .login-page{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+}
+@media (min-width: 551px) and (max-width: 767px) {
+    .login-page{
+        width: 70% !important;
+        margin-left: 15% !important;
+    }
+}
+
+/* signup page */
+@media (width <=550px) {
+    .signup-page{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+}
+@media (min-width: 551px) and (max-width: 767px) {
+    .signup-page{
+        width: 70% !important;
+        margin-left: 15% !important;
+    }
+}
